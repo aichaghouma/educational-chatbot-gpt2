@@ -24,6 +24,10 @@ Projet réalisé dans le cadre d'un stage au laboratoire ESSE de l'ENET'Com (Sfa
 ![Mode multilingue](screenshots/multilingue.png)
 *La même question posée en français et en anglais : le chatbot détecte la langue et répond dans celle de l'utilisateur.*
 
+### Application mobile (Flutter)
+![Application Flutter](screenshots/flutter-app.png)
+*Interface de l'application Flutter : elle se connecte à l'API FastAPI hébergée sur Render et affiche les mêmes réponses que la version web.*
+
 ## ✨ Fonctionnalités
 
 - Réponses issues d'une base de connaissances de plus de 350 entrées couvrant plus de 30 matières (TF-IDF + similarité cosinus)
