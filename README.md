@@ -6,16 +6,23 @@ Projet réalisé dans le cadre d'un stage au laboratoire ESSE de l'ENET'Com (Sfa
 
 ## 🚀 Démo en ligne
 
-- Application : https://chatbot-api-lmbl.onrender.com
+- Application : https://enetbot.streamlit.app/
 - Remarque : l'hébergement est gratuit (Render), le premier chargement peut prendre 30 à 60 secondes le temps que le serveur se réveille.
 
 ## 📸 Captures d'écran
 
+
+### Page d'accueil
 ![Page d'accueil](screenshots/accueil.png)
+*Interface du chatbot : l'utilisateur écrit sa question en français ou en anglais dans la zone de saisie.*
 
+### Réponse issue de la base de connaissances (RAG)
 ![Réponse RAG](screenshots/reponse-rag.png)
+*Le chatbot retrouve la réponse la plus proche dans sa base de connaissances grâce à TF-IDF et à la similarité cosinus.*
 
-![Mode français / anglais](screenshots/multilingue.png)
+### Support multilingue
+![Mode multilingue](screenshots/multilingue.png)
+*La même question posée en français et en anglais : le chatbot détecte la langue et répond dans celle de l'utilisateur.*
 
 ## ✨ Fonctionnalités
 
